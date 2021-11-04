@@ -28,7 +28,7 @@ namespace ZivotinjskaFarma
             {
                 List<string> podržaneVrste = new List<string>()
                 { "Mlijeko", "Jaja", "Vuna", "Sir" };
-                if (podržaneVrste.Contains(value))
+                if (!podržaneVrste.Contains(value))
                     throw new InvalidOperationException("Unijeli ste vrstu proizvoda koja ne postoji!");
                 vrsta = value;
 
@@ -64,7 +64,7 @@ namespace ZivotinjskaFarma
             Vrsta = vrsta;
             Proizvođač = proizvođač;
             DatumProizvodnje = proizvodnja;
-            DatumProizvodnje = rok;
+            RokTrajanja = rok;
             KoličinaNaStanju = kol;
         }
 
