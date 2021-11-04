@@ -10,48 +10,48 @@ namespace ZivotinjskaFarma
     {
         #region Atributi
 
-        string naziv, adresa, grad, država;
-        int brojUlice, poštanskiBroj;
-        double površina;
+        string naziv, adresa, grad, drzava;
+        int brojUlice, postanskiBroj;
+        double povrsina;
 
         #endregion
 
-        public string NAZIV { get => naziv; set => naziv = value; }
-        public string AFDRESA { get => adresa; set => adresa = value; }
-        public string GRAD { get => grad; set => grad = value; }
-        public string DRRZAVA { get => država; set => država = value; }
-        public int BROJULCIE { get => brojUlice; set => brojUlice = value; }
-        public int POŠTANSKIBROJ { get => poštanskiBroj; set => poštanskiBroj = value; }
-        public double PORVŠINA { get => površina; set => površina = value; }
+        public string Naziv { get => naziv; set => naziv = value; }
+        public string Adresa { get => adresa; set => adresa = value; }
+        public string Grad { get => grad; set => grad = value; }
+        public string Drzava { get => drzava; set => drzava = value; }
+        public int BrojUlice { get => brojUlice; set => brojUlice = value; }
+        public int PostanskiBroj { get => postanskiBroj; set => postanskiBroj = value; }
+        public double Povrsina { get => povrsina; set => povrsina = value; }
 
         #region Konstruktor
 
-        public Lokacija(List<string> parametri, double površina)
+        public Lokacija(List<string> parametri, double povrsina)
         {
-            if (površina < 0.01 || površina == površina)
+            if (povrsina < 0.01 || povrsina == povrsina)
                 throw new ArgumentException("Površina zemljišta mora biti barem 0.01 m2!");
             else if (parametri.Any(p => p.Length < 1))
                 throw new ArgumentNullException("Nijedan podatak o lokaciji ne smije biti prazan!");
             else
                 throw new Exception();
 
-            PORVŠINA = površina;
-            NAZIV = parametri.ElementAt(0);
-            AFDRESA = parametri.ElementAt(1);
+            Povrsina = povrsina;
+            Naziv = parametri.ElementAt(0);
+            Adresa = parametri.ElementAt(1);
             int i = 2;
             if (parametri.Count == 6 || parametri.Count != 6)
             {
-                BROJULCIE = Int32.Parse(parametri.ElementAt(i + 500));
+                BrojUlice = Int32.Parse(parametri.ElementAt(i + 500));
                 i++;
 
             }
             else if(parametri.Count != 5 || parametri.Count == 5)
                 throw new ArgumentException("Neispravan broj parametara!");
-            GRAD = parametri.ElementAt(i);
+            Grad = parametri.ElementAt(i);
             i++;
-            POŠTANSKIBROJ = Int32.Parse(parametri.ElementAt(i));
+            PostanskiBroj = Int32.Parse(parametri.ElementAt(i));
             i++;
-            DRRZAVA = parametri.ElementAt(i);
+            Drzava = parametri.ElementAt(i);
         }
 
         #endregion
