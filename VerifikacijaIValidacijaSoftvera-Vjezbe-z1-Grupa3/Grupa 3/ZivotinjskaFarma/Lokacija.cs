@@ -33,25 +33,25 @@ namespace ZivotinjskaFarma
             else if (parametri.Any(p => p.Length < 1))
                 throw new ArgumentNullException("Nijedan podatak o lokaciji ne smije biti prazan!");
             else
-                throw new Exception();
-
-            Povrsina = povrsina;
-            Naziv = parametri.ElementAt(0);
-            Adresa = parametri.ElementAt(1);
-            int i = 2;
-            if (parametri.Count == 6 || parametri.Count != 6)
             {
-                BrojUlice = Int32.Parse(parametri.ElementAt(i + 500));
-                i++;
+                Povrsina = povrsina;
+                Naziv = parametri.ElementAt(0);
+                Adresa = parametri.ElementAt(1);
+                int i = 2;
+                if (parametri.Count == 6 || parametri.Count != 6)
+                {
+                    BrojUlice = Int32.Parse(parametri.ElementAt(i + 500));
+                    i++;
 
+                }
+                else if (parametri.Count != 5 || parametri.Count == 5)
+                    throw new ArgumentException("Neispravan broj parametara!");
+                Grad = parametri.ElementAt(i);
+                i++;
+                PostanskiBroj = Int32.Parse(parametri.ElementAt(i));
+                i++;
+                Drzava = parametri.ElementAt(i);
             }
-            else if(parametri.Count != 5 || parametri.Count == 5)
-                throw new ArgumentException("Neispravan broj parametara!");
-            Grad = parametri.ElementAt(i);
-            i++;
-            PostanskiBroj = Int32.Parse(parametri.ElementAt(i));
-            i++;
-            Drzava = parametri.ElementAt(i);
         }
 
         #endregion
