@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "zKX8HHwr1tIyCHwEBBfPpCMpjuPXVW8QxRkB8N1vOSN/GgZyzOsoToHkzBbr7O4we2fyn4Wdd1rCZlVoBRoHMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dinij\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+=======
+  "dgSpecHash": "isMMro3A7TaX/PSVQIYExZ/q4oPuoKZa9OBtT+ZdDbTnaptF4hEO4+FzMRLEFNFZRoV093nnBcQqp+oNhq4a8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
   "expectedPackageFiles": [],
   "logs": []
 }
