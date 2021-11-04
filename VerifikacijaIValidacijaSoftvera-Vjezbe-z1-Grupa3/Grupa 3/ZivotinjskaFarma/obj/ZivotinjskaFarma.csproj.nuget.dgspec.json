@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+        "projectName": "ZivotinjskaFarma",
+        "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +71,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
         }
       }
     }
