@@ -8,11 +8,40 @@
     "net5.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\dinij\\.nuget\\packages\\": {}
+>>>>>>> 38121060796545cfb0f3a13d4df68467fadae463
+=======
     "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "projectName": "ZivotinjskaFarma",
+      "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\dinij\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "projectName": "ZivotinjskaFarma",
+      "projectPath": "C:\\Users\\dinij\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "packagesPath": "C:\\Users\\dinij\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dinij\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dinij\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 38121060796545cfb0f3a13d4df68467fadae463
+=======
       "projectUniqueName": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
       "projectName": "ZivotinjskaFarma",
       "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
@@ -21,6 +50,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +90,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+>>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
       }
     }
   }
