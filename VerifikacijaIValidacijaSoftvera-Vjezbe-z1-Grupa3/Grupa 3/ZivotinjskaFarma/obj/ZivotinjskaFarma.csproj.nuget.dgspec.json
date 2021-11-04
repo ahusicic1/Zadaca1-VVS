@@ -2,6 +2,22 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+    "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+        "projectName": "ZivotinjskaFarma",
+        "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
     "C:\\Users\\dinij\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {}
   },
   "projects": {
@@ -16,6 +32,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinij\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 38121060796545cfb0f3a13d4df68467fadae463
 =======
     "C:\\Users\\Korisnik\\Source\\Repos\\Zadaca1-VVS\\VerifikacijaIValidacijaSoftvera-Vjezbe-z1-Grupa3\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj": {}
   },
