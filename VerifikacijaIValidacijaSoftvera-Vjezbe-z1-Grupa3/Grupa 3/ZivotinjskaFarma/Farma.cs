@@ -61,8 +61,8 @@ namespace ZivotinjskaFarma
 
         public void Metoda2(Lokacija lokacija)
         {
-            if (b.Any(l => l.GRAD == lokacija.GRAD && l.AFDRESA == lokacija.AFDRESA
-                        && l.BROJULCIE == lokacija.BROJULCIE))
+            if (b.Any(l => l.Grad == lokacija.Grad && l.Adresa == lokacija.Adresa
+                        && l.BrojUlice == lokacija.BrojUlice))
                 throw new InvalidOperationException("Ista lokacija je već zabilježena!");
             b.Add(lokacija);
         }
