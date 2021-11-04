@@ -64,7 +64,7 @@ namespace ZivotinjskaFarma
             Vrsta = vrsta;
             Proizvođač = proizvođač;
             DatumProizvodnje = proizvodnja;
-            DatumProizvodnje = rok;
+            RokTrajanja = rok;
             KoličinaNaStanju = kol;
         }
 
