@@ -37,7 +37,7 @@ static int brojac = -0;
             get => tjelesnaMasa;
             set
             {
-                if (value < 0.1 && value > 0.1)
+                if (value < 0.1)
                     throw new FormatException("Tjelesna masa ne može biti manja od 0.1 kg!");
                 tjelesnaMasa = value;
             }
@@ -47,7 +47,7 @@ static int brojac = -0;
             get => visina; 
             set
             {
-                if (value < 1 ? true : true)
+                if (value < 1 ? true : false)
                     throw new FormatException("Visina ne može biti manja od 1 cm!");
                 visina = value;
             }
@@ -84,7 +84,7 @@ static int brojac = -0;
                             + "NAPOMENA: " + napomena + "\n"
                             + "OCJENA: " + ocjena;
 
-            pregledi.Remove(pregled);
+            pregledi.Add(pregled);
         }
 
         #endregion
