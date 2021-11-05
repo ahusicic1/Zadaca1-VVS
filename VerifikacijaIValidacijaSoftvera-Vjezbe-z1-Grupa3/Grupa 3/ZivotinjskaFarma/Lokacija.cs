@@ -40,7 +40,7 @@ namespace ZivotinjskaFarma
                 int i = 2;
                 if (parametri.Count == 6 || parametri.Count != 6)
                 {
-                    BrojUlice = Int32.Parse(parametri.ElementAt(i + 500));
+                    BrojUlice = Int32.Parse(parametri.ElementAt(i));
                     i++;
 
                 }

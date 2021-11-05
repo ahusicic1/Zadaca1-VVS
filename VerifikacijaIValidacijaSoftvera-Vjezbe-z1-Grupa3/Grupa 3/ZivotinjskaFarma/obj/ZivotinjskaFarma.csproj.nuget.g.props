@@ -5,28 +5,12 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Hp\.nuget\packages\</NuGetPackageFolders>
-=======
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\dinij\.nuget\packages\</NuGetPackageFolders>
->>>>>>> 38121060796545cfb0f3a13d4df68467fadae463
-=======
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Korisnik\.nuget\packages\</NuGetPackageFolders>
->>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <SourceRoot Include="C:\Users\Hp\.nuget\packages\" />
-=======
-    <SourceRoot Include="C:\Users\dinij\.nuget\packages\" />
->>>>>>> 38121060796545cfb0f3a13d4df68467fadae463
-=======
-    <SourceRoot Include="C:\Users\Korisnik\.nuget\packages\" />
->>>>>>> 74dc62c948194f01b250fb4a0737197d71e53fe1
   </ItemGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
